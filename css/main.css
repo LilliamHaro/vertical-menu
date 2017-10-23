@@ -1,12 +1,11 @@
 body {
   font-family: sans-serif;
-  float: left;
 }
 h1{
   padding-left: 5px;
 }
 ul {
-  list-style: none;
+  list-style: none;/*le quita las viñetas que vienen por defecto en las listas*/
   /*quitarle los efectos que vienen por defecto al eelemento -para cualquier navegador-*/
   margin: 0;
   padding: 0;
@@ -38,11 +37,11 @@ ul li:first-child /*first child (pseudo-clase)--->seleciona a la primera etiquet
 ul li:first-child a {
   color: #fff;
 }
-/*selector de la etiqueta a dentro del primer elemento li(cuando el mouse haya pasado encima de él) que se encuentre en la lista(ul)*/
+/*selector de la etiqueta anchor del primer elemento li(cuando el mouse haya pasado encima de él) que se encuentre en la lista(ul)*/
 ul li:first-child a:hover {
   color: #000;
 }
-/*selector de la etiqueta a dentro del primer elemento li(cuando se haya hechoc click de él) en estado hover que se encuentre en la lista(ul)*/
+/*selector de la etiqueta a del primer elemento li(cuando se haya hecho click en él) que se encuentre en la lista(ul)*/
 ul li:first-child a:active {
   color: #fff;
 }
