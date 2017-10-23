@@ -4,12 +4,14 @@ body {
 h1{
   padding-left: 5px;
 }
+nav {
+  width: 250px; /*se cambia el width que estaba en el ul para que el proyecto sea más preciso y semantico*/
+}
 ul {
   list-style: none;/*le quita las viñetas que vienen por defecto en las listas*/
   /*quitarle los efectos que vienen por defecto al eelemento -para cualquier navegador-*/
   margin: 0;
   padding: 0;
-  width: 250px;
   line-height: 30px; /*espacio entre lineas*/
 }
 li{
