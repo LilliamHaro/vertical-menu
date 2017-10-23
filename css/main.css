@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  float: left;
+}
+h1{
+  padding-left: 5px;
+}
+ul {
+  list-style: none;
+  /*quitarle los efectos que vienen por defecto al eelemento -para cualquier navegador-*/
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  line-height: 30px; /*espacio entre lineas*/
+}
+li{
+  background-color: #f5f5f0
+}
+
+a {
+  display: block; /*se le vuelve bloque para ocupe todo el espacio de su linea en el elemento padre*/
+  text-decoration: none; /*se lo quita el subrayado que viene por defecto en las etiquetas anchor*/
+  color: #000;
+  padding:10px;
+}
+a:hover {
+  background-color: #e0e0d1;
+}
+a:active{
+  background-color: #333;
+  color: #fff;
+}
+ul li:first-child /*first child (pseudo-clase)--->seleciona a la primera etiqueta li dentro ul*/
+{
+  background-color: #f9a91a;
+}
+/*selector de la etiqueta a dentro del primer elemento li que se encuentre en la lista(ul)*/
+ul li:first-child a {
+  color: #fff;
+}
+/*selector de la etiqueta a dentro del primer elemento li(cuando el mouse haya pasado encima de él) que se encuentre en la lista(ul)*/
+ul li:first-child a:hover {
+  color: #000;
+}
+/*selector de la etiqueta a dentro del primer elemento li(cuando se haya hechoc click de él) en estado hover que se encuentre en la lista(ul)*/
+ul li:first-child a:active {
+  color: #fff;
+}
